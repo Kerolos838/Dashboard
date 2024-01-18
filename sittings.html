@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sittings</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- BootStrap 5 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-Doce.min.css">
+  <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"/> -->
+  
+  <!-- Fontasome -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- Main Design CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/framewoek.css">
+</head>
+<body>
+  <div class="page d-flex">
+    <!-- Start Sidebar -->
+    <div class="sidebar bg-white position-relative p-3">
+      <div class="main-logo mt-0 mb-4 mb-md-4 m-md-auto">
+        <a href="index.html"><img class="ps-lg-2 ps-0" src="imgs/main_logo.png" alt="KK8"></a>
+      </div>
+      <ul class="list-unstyled p-0 fw-medium">
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded " href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block ">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class="active d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="sittings.html">
+            <i class="fa-solid fa-gear fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="profile.html">
+            <i class="fa-regular fa-user fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Frinds</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="files.html">
+            <i class="fa-regular fa-file fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Plans</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- End Sidebar -->
+    <div class="content overflow-hidden p-3 w-100">
+      <!-- Start Head -->
+      <div class="head bg-white p-2 between-flex rounded">
+        <div class="search position-relative ">
+          <input class="p-2 ms-1 rounded" type="search" placeholder="Search">
+        </div>
+        <div class="icons d-flex align-items-center">
+          <span class="notification position-relative">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <img class="rounded-pill ms-3" src="imgs/avatar.png" alt="">
+        </div>
+      </div>
+      <!-- End Head -->
+      <h1 class="position-relative fw-bold fs-2 ms-3 me-3 mt-3 mb-5">Sittings</h1>
+      <div class="grid gap-3">
+        <!-- Start Sittings Widget -->
+        <div class="sittings bg-white rounded-3 p-3 g-col-12 g-col-lg-6 g-col-xl-4 pb-3">
+          <h2 class="m-0 mb-2 fw-bold pb-0 rounded-3">Site Control</h2>
+          <p class="m-0 mb-3 gray-c pb-0 rounded-3">Control The Website If There Is Maintenance</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <h6 class="fw-bold mt-4">Website Control</h6>
+              <p class="gray-c fs-6">Open/Close Website And Type The Reason</p>
+            </div>
+            <div class="fs-3 form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="swich" checked>
+            </div>
+          </div>
+          <textarea class="area-sit p-2 mb-3 border w-100 rounded-3" placeholder="Close Message Content"></textarea>
+        </div>
+        <!-- End Sittings Widget -->
+        <!-- Start General Info Widget -->
+        <div class="general bg-white rounded-3 p-3 g-col-12 g-col-lg-6 g-col-xl-4 pb-3">
+          <h2 class="m-0 mb-2 fw-bold pb-0 rounded-3">General Info</h2>
+          <p class="m-0 mb-3 gray-c pb-0 rounded-3">Control The Website If There Is Maintenance</p>
+          <form class="p-2">
+            <label class="gray-c mb-1 p-1 d-block" for="frist">Frist Name</label>
+            <input class="w-100 p-2 mb-3 rounded-3 border border-secondary-subtle" type="text" id="frist" placeholder="Frist Name">
+            <label class="gray-c mb-1 p-1 d-block" for="last">Last Name</label>
+            <input class="w-100 p-2 mb-3 rounded-3 border border-secondary-subtle" type="text" id="last" placeholder="Last Name">
+            <label class="gray-c mb-1 p-1 d-block" for="email">Email</label>
+            <input class="w-75 p-2 d-inline rounded-3 border border-secondary-subtle" type="email" id="frist" placeholder="Kero@email.com" disabled>
+            <a class="btn btn-outline-primary ms-2 position-absolute border-0" href="#">Change</a>
+          </form>
+        </div>
+        <!-- End General Info Widget -->
+        <!-- Start Security Info Widget -->
+        <div class="security bg-white rounded-3 p-3 g-col-12 g-col-lg-6 g-col-xl-4 pb-3">
+          <h2 class="m-0 mb-2 fw-bold pb-0 rounded-3">Security Info</h2>
+          <p class="m-0 mb-3 gray-c pb-0 rounded-3">Security Information About Your Account</p>
+        <div class="pb-2 mb-2 mt-5 d-flex justify-content-between align-items-center border border-top-0 border-end-0 border-start-0 border-light-subtle">
+          <div>
+            <h6 class="fw-bold">Password</h6>
+            <p class="gray-c fs-6">Last Change On 25/10/2021</p>
+          </div>
+          <button type="button" class="btn btn-sm btn-primary">Change</button>
+        </div>
+        <div class="py-2 mb-2 d-flex justify-content-between align-items-center border border-top-0 border-end-0 border-start-0 border-light-subtle">
+          <div>
+            <h6 class="fw-bold">Two-Factor Authentication</h6>
+            <p class="gray-c fs-6">Enable/Disable The Feature</p>
+          </div>
+          <div class="fs-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="swich">
+          </div>
+        </div>
+        <div class="pb-2 mb-2 d-flex justify-content-between align-items-center">
+          <div>
+            <h6 class="fw-bold">Devices</h6>
+            <p class="gray-c fs-6">Check The Login Devices List</p>
+          </div>
+          <button type="button" class="btn btn-sm btn-secondary-subtl bg-dark-subtle ">Devices</button>
+        </div>
+        <!-- End Security Info Widget -->
+
+        <!-- Start General Info Widget -->
+        <!-- End General Info Widget -->
+      </div>
+      <!-- End Security Info Widget -->
+      <!-- Start Social Info Widget -->
+      <div class="social bg-white rounded-3 p-3 g-col-12 g-col-lg-6 g-col-xl-4 pb-3">
+        <h2 class="m-0 mb-2 fw-bold pb-0 rounded-3">Social Info</h2>
+        <p class="m-0 mb-3 gray-c pb-0 rounded-3">Social Media Information</p>
+        <div class="box-social mb-3 d-flex align-items-center ">
+          <i class="fa-brands fa-twitter gray-c  bg-body-secondary-subtle rounded-start border border-secondary-subtle d-flex justify-content-center align-items-center"></i>
+          <input class="w-100 p-2 bg-body-secondary-subtle rounded-end border border-start-0 border-secondary-subtle" type="text" placeholder="Twitter Username">
+        </div>
+        <div class="box-social mb-3 d-flex align-items-center ">
+          <i class="fa-brands fa-facebook gray-c  bg-body-secondary-subtle rounded-start border border-secondary-subtle d-flex justify-content-center align-items-center"></i>
+          <input class="w-100 p-2 bg-body-secondary-subtle rounded-end border border-start-0 border-secondary-subtle" type="text" placeholder="Facebook Username">
+        </div>
+        <div class="box-social mb-3 d-flex align-items-center ">
+          <i class="fa-brands fa-youtube gray-c  bg-body-secondary-subtle rounded-start border border-secondary-subtle d-flex justify-content-center align-items-center"></i>
+          <input class="w-100 p-2 bg-body-secondary-subtle rounded-end border border-start-0 border-secondary-subtle" type="text" placeholder="Youtube Username">
+        </div>
+        <div class="box-social mb-3 d-flex align-items-center ">
+          <i class="fa-brands fa-linkedin-in gray-c  bg-body-secondary-subtle rounded-start border border-secondary-subtle d-flex justify-content-center align-items-center"></i>
+          <input class="w-100 p-2 bg-body-secondary-subtle rounded-end border border-start-0 border-secondary-subtle" type="text" placeholder="Linkedin-in Username">
+        </div>
+      </div>
+      <!-- End Social Info Widget -->
+      <!-- Start Widgets Control Widget -->
+      <div class="control bg-white rounded-3 p-3 g-col-12 g-col-lg-6 g-col-xl-4 pb-3">
+        <h2 class="m-0 mb-2 fw-bold pb-0 rounded-3">Widgets Control</h2>
+        <p class="m-0 mb-3 gray-c pb-0 rounded-3">Show/Hide Widgets</p>
+        <div class="form-check my-3">
+          <input class="form-check-input" type="checkbox" value="1" id="empty">
+          <label class="form-check-label" for="empty">Quick Draft</label>
+        </div>
+        <div class="form-check my-3">
+          <input class="form-check-input" type="checkbox" value="2" id="checked" checked>
+          <label class="form-check-label" for="checked">Yearly Targets</label>
+        </div>
+        <div class="form-check my-3">
+          <input class="form-check-input" type="checkbox" value="1" id="empty1">
+          <label class="form-check-label" for="empty1">Tickets Statistics</label>
+        </div>
+        <div class="form-check my-3">
+          <input class="form-check-input" type="checkbox" value="2" id="checked1" checked>
+          <label class="form-check-label" for="checked1">Latest News</label>
+        </div>
+        <div class="form-check my-3">
+          <input class="form-check-input" type="checkbox" value="1" id="empty2">
+          <label class="form-check-label" for="empty2">Latest Tasks</label>
+        </div>
+        <div class="form-check my-3">
+          <input class="form-check-input" type="checkbox" value="2" id="checked2" checked>
+          <label class="form-check-label" for="checked2">Top Search Items</label>
+        </div>
+      </div>
+      <!-- End Widgets Control Widget -->
+      <!-- Start Backup Manager Widget -->
+      <div class="manager bg-white rounded-3 p-3 g-col-12 g-col-lg-6 g-col-xl-4 pb-3">
+        <h2 class="m-0 mb-2 fw-bold pb-0 rounded-3">Backup Manager</h2>
+        <p class="m-0 mb-3 gray-c pb-0 rounded-3">Control Backup Time And Location</p>
+        <div class="form-check my-2 py-1">
+          <input class="form-check-input" type="radio" name="check-radio" id="check-radio1">
+          <label class="form-check-label" for="check-radio1">Daily</label>
+        </div>
+        <div class="form-check my-2 py-1">
+          <input class="form-check-input" type="radio" name="check-radio" id="check-radio2" checked>
+          <label class="form-check-label" for="check-radio2">Weekly</label>
+        </div>
+        <div class="form-check my-2 pt-1 pb-3 border border-top-0 border-end-0 border-start-0 border-light-subtle">
+          <input class="form-check-input" type="radio" name="check-radio" id="check-radio3">
+          <label class="form-check-label" for="check-radio3">Monthly</label>
+        </div>
+
+        <div class="d-block d-sm-flex justify-content-between align-items-center">
+
+          <div class="servers w-100 mx-1 text-center">
+            <input type="radio" name="servers" id="server1">
+            <div class="server mb-2 rounded-3">
+            <label class="d-block m-3" for="server1">
+              <i class="fa-solid fa-server d-block my-2 mx-auto"></i>
+              Megaman
+            </label>
+            </div>
+          </div>
+
+          <div class="servers w-100 mx-1 text-center">
+            <input type="radio" name="servers" id="server2" checked>
+            <div class="server mb-2 rounded-3">
+            <label class="d-block m-3" for="server2" >
+              <i class="fa-solid fa-server d-block my-2 mx-auto "></i>
+              Zero
+            </label>
+            </div>
+          </div>
+
+          <div class="servers w-100 mx-1 text-center">
+            <input type="radio" name="servers" id="server3">
+            <div class="server mb-2 rounded-3">
+            <label class="d-block m-3" for="server3">
+              <i class="fa-solid fa-server d-block my-2 mx-auto"></i>
+              Sigma
+            </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start Backup Manager Widget -->
+    </div>
+  </div>
+  <!-- Fontasome -->
+  <script src="js/all.min.js"></script>
+  <!-- BootStrap 5 -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Main JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>

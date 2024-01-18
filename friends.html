@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frinds</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- BootStrap 5 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-Doce.min.css">
+  <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"/> -->
+  
+  <!-- Fontasome -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- Main Design CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/framewoek.css">
+</head>
+<body>
+  <div class="page d-flex">
+    <!-- Start Sidebar -->
+    <div class="sidebar bg-white position-relative p-3">
+      <div class="main-logo mt-0 mb-4 mb-md-4 m-md-auto">
+        <a href="index.html"><img class="ps-lg-2 ps-0" src="imgs/main_logo.png" alt="KK8"></a>
+      </div>
+      <ul class="list-unstyled p-0 fw-medium">
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded " href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block ">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="sittings.html">
+            <i class="fa-solid fa-gear fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="profile.html">
+            <i class="fa-regular fa-user fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="active d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Frinds</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="files.html">
+            <i class="fa-regular fa-file fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Plans</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- End Sidebar -->
+    <div class="content overflow-hidden p-3 w-100">
+      <!-- Start Head -->
+      <div class="head bg-white p-2 between-flex rounded">
+        <div class="search position-relative ">
+          <input class="p-2 ms-1 rounded" type="search" placeholder="Search">
+        </div>
+        <div class="icons d-flex align-items-center">
+          <span class="notification position-relative">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <img class="rounded-pill ms-3" src="imgs/avatar.png" alt="">
+        </div>
+      </div>
+      <!-- End Head -->
+      <h1 class="position-relative fw-bold fs-2 ms-3 me-3 mt-3 mb-5">Frinds</h1>
+      <div class="friends-page grid gap-3">
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-01.jpg" alt="Friend">
+            <h5 class="fw-semibold">Kerolos Kamel</h5>
+            <p class="gray-c">JavaScript Developer</p>
+          </div>
+          <div class="py-3 px-2 position-relative text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>99 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>15 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>25 Articles</span>
+            <span class="position-absolute opacity-25 text-warning fs-1 fw-bold top-50 end-0 translate-middle">VIP</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 08/03/2023</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-02.jpg" alt="Friend">
+            <h5 class="fw-semibold">Mina Ma3oud</h5>
+            <p class="gray-c">Cloud Developer</p>
+          </div>
+          <div class="py-3 px-2 text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>30 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>11 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>15 Articles</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 08/03/2023</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-03.jpg" alt="Friend">
+            <h5 class="fw-semibold">Michael Ref3at</h5>
+            <p class="gray-c">Mobile Developer</p>
+          </div>
+          <div class="py-3 px-2 text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>80 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>20 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>18 Articles</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 08/03/2023</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-04.jpg" alt="Friend">
+            <h5 class="fw-semibold">Shady Nabil</h5>
+            <p class="gray-c">Back-End Developer</p>
+          </div>
+          <div class="py-3 px-2 text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>70 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>30 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>18 Articles</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 30/12/2021</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-05.jpg" alt="Friend">
+            <h5 class="fw-semibold">Ibrahim Roman</h5>
+            <p class="gray-c">Algorithm Developer</p>
+          </div>
+          <div class="py-3 px-2 position-relative text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>80 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>30 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>18 Articles</span>
+            <span class="position-absolute opacity-25 text-warning fs-1 fw-bold top-50 end-0 translate-middle">VIP</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 25/11/2019</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>0
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-02.jpg" alt="Friend">
+            <h5 class="fw-semibold">John Mina</h5>
+            <p class="gray-c">Algorithm Developer</p>
+          </div>
+          <div class="py-3 px-2 text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>90 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>15 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>25 Articles</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 08/03/2023</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-04.jpg" alt="Friend">
+            <h5 class="fw-semibold">Abanob Tal3at</h5>
+            <p class="gray-c">Cloud Developer</p>
+          </div>
+          <div class="py-3 px-2 position-relative text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>43 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>28 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>17 Articles</span>
+            <span class="position-absolute opacity-25 text-warning fs-1 fw-bold top-50 end-0 translate-middle">VIP</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 08/03/2023</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-01.jpg" alt="Friend">
+            <h5 class="fw-semibold">Karam Maged</h5>
+            <p class="gray-c">Content Creator</p>
+          </div>
+          <div class="py-3 px-2 text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>39 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>29 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>10 Articles</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 08/03/2023</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-03.jpg" alt="Friend">
+            <h5 class="fw-semibold">Fady Gerges</h5>
+            <p class="gray-c">JavaScript Developer</p>
+          </div>
+          <div class="py-3 px-2 position-relative text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>35 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>95 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>14 Articles</span>
+            <span class="position-absolute opacity-25 text-warning fs-1 fw-bold top-50 end-0 translate-middle">VIP</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 08/03/2023</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+          <div class="communication position-absolute p-2">
+            <i class="fa-solid fa-phone p-2 bg-eee bg-com rounded-pill"></i>
+            <i class="fa-regular fa-envelope p-2 bg-eee bg-com rounded-pill"></i>
+          </div>
+          <div class="friend text-center pt-5">
+            <img class="rounded-pill w-25 mb-2" src="imgs/friend-05.jpg" alt="Friend">
+            <h5 class="fw-semibold">Kero</h5>
+            <p class="gray-c">Front-End Developer</p>
+          </div>
+          <div class="py-3 px-2 text-center text-sm-start border border-end-0 border-start-0 border-light-subtle">
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-face-smile mx-2"></i></i>89 Friend</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-solid fa-code-commit ms-2 me-1"></i>16 Projects</span>
+            <span class="d-block px-3 fw-semibold"><i class="fa-regular fa-newspaper mx-2"></i>67 Articles</span>
+          </div>
+          <div class="info-friend px-3 py-3 d-block d-sm-flex justify-content-between text-center text-sm-start">
+            <p class="gray-c">Joined 08/03/2023</p>
+            <div>
+              <button type="button" class="btn btn-sm btn-primary rounded-3">Profile</button>
+              <button type="button" class="btn btn-sm btn-danger rounded-3">Remove</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Fontasome -->
+  <script src="js/all.min.js"></script>
+  <!-- BootStrap 5 -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Main JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>

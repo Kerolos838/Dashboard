@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- BootStrap 5 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-Doce.min.css">
+  <!-- <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"/> -->
+  
+  <!-- Fontasome -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- Main Design CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/framewoek.css">
+</head>
+<body>
+  <div class="page d-flex">
+    <!-- Start Sidebar -->
+    <div class="sidebar bg-white position-relative p-3">
+      <div class="main-logo mt-0 mb-4 mb-md-4 m-md-auto">
+        <a href="index.html"><img class="ps-lg-2 ps-0" src="imgs/main_logo.png" alt="KK8"></a>
+      </div>
+      <ul class="list-unstyled p-0 fw-medium">
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded " href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block ">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="sittings.html">
+            <i class="fa-solid fa-gear fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="profile.html">
+            <i class="fa-regular fa-user fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Frinds</span>
+          </a>
+        </li>
+        <li>
+          <a class="active d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="files.html">
+            <i class="fa-regular fa-file fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex text-center text-dark fs-9 mb-2 mb-1 p-2 rounded" href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw align-self-center"></i>
+            <span class="ms-2 d-none d-md-block">Plans</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- End Sidebar -->
+    <div class="content overflow-hidden p-3 w-100">
+      <!-- Start Head -->
+      <div class="head bg-white p-2 between-flex rounded">
+        <div class="search position-relative ">
+          <input class="p-2 ms-1 rounded" type="search" placeholder="Search">
+        </div>
+        <div class="icons d-flex align-items-center">
+          <span class="notification position-relative">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <img class="rounded-pill ms-3" src="imgs/avatar.png" alt="">
+        </div>
+      </div>
+      <!-- End Head -->
+      <h1 class="position-relative fw-bold fs-2 ms-3 me-3 mt-3 mb-5">Files</h1>
+      <div class="files-page grid gap-3">
+        <div class="rounded-3 g-col-12 g-col-md-7 g-col-lg-9">
+          <div class="grid gap-3 rounded-3">
+
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/pdf.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.pdf</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">5.5MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/avi.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.avi</h5>
+                  <p class="gray-c text-start mb-1">Admin</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">12.5MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/eps.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.eos</h5>
+                  <p class="gray-c text-start mb-1">Uploader</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.1MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/psd.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.psd</h5>
+                  <p class="gray-c text-start mb-1">Kerolos</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">15.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/dll.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.dll</h5>
+                  <p class="gray-c text-start mb-1">Coder</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/png.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.png</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">1.1MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/dll.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.dll</h5>
+                  <p class="gray-c text-start mb-1">Coder</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/png.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.png</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">1.1MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/pdf.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.pdf</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">5.5MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/avi.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.avi</h5>
+                  <p class="gray-c text-start mb-1">Admin</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">12.5MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/eps.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.eos</h5>
+                  <p class="gray-c text-start mb-1">Uploader</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.1MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/psd.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.psd</h5>
+                  <p class="gray-c text-start mb-1">Kerolos</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">15.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/dll.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.dll</h5>
+                  <p class="gray-c text-start mb-1">Coder</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/png.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.png</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">1.1MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/dll.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.dll</h5>
+                  <p class="gray-c text-start mb-1">Coder</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/png.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.png</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">1.1MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/pdf.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.pdf</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">5.5MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/avi.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.avi</h5>
+                  <p class="gray-c text-start mb-1">Admin</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">12.5MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/eps.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.eos</h5>
+                  <p class="gray-c text-start mb-1">Uploader</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.1MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/psd.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.psd</h5>
+                  <p class="gray-c text-start mb-1">Kerolos</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">15.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/dll.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.dll</h5>
+                  <p class="gray-c text-start mb-1">Coder</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/png.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.png</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">1.1MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/dll.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.dll</h5>
+                  <p class="gray-c text-start mb-1">Coder</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">2.2MB</p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-12 g-col-sm-6 g-col-lg-4 g-col-xxl-3">
+              <div class="file-type position-relative bg-white rounded-3 p-2 g-col-12 g-col-lg-6 g-col-xl-4 text-center text-sm-start">
+                <div class="position-absolute p-2">
+                  <i class="fa-solid fa-download gray-c bg-hover p-2 rounded-pill"></i>
+                </div>
+                <div class="text-center pt-5 border border-end-0 border-start-0 border-top-0 border-light-subtle">
+                  <img class="w-25 mb-2" src="imgs/png.svg" alt="PDF">
+                  <h5 class="fw-semibold fs-6 mt-2">my-file.png</h5>
+                  <p class="gray-c text-start mb-1">Kero</p>
+                </div>
+                <div class="info-file px-1 py-2 d-block d-lg-flex justify-content-between align-items-center text-center text-lg-start">
+                  <p class="gray-c m-0">08/03/2023</p>
+                  <p class="gray-c m-0">1.1MB</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="statistics-file bg-white rounded-3 g-col-12 g-col-md-5 g-col-lg-3">
+          <h2 class="m-0 mb-4 p-3 fs-3 fw-bold pb-0 rounded-3">Files Statistics</h2>
+          <div class="bg-hover2 rounded-3 d-flex align-items-center p-2 m-2 border border-light-subtle">
+            <i class="fa-regular fa-file-pdf fa-lg text-primary bg-primary-subtle p-3 me-2"></i>
+            <div class="info-activitie flex-grow-1">
+              <h5 class="fs-6 fw-bold">PDF Files</h5>
+              <p class="fs-7 gray-c m-0">130</p>
+            </div>
+              <span class="gray-c text-center text-sm-end fw-medium d-block mb-2">6.5GB</span>
+          </div>
+          <div class="bg-hover2 rounded-3 d-flex align-items-center p-2 m-2 border border-light-subtle">
+            <i class="fa-regular fa-images fa-lg text-success bg-success-subtle p-3 me-2"></i>
+            <div class="info-activitie flex-grow-1">
+              <h5 class="fs-6 fw-bold">Image</h5>
+              <p class="fs-7 gray-c m-0">115</p>
+            </div>
+              <span class="gray-c text-center text-sm-end fw-medium d-block mb-2">3.5GB</span>
+          </div>
+          <div class="bg-hover2 rounded-3 d-flex align-items-center p-2 m-2 border border-light-subtle">
+            <i class="fa-regular fa-file-word fa-lg text-danger bg-danger-subtle p-3 me-2"></i>
+            <div class="info-activitie flex-grow-1">
+              <h5 class="fs-6 fw-bold">Word Files</h5>
+              <p class="fs-7 gray-c m-0">238</p>
+            </div>
+              <span class="gray-c text-center text-sm-end fw-medium d-block mb-2">9.4GB</span>
+          </div>
+          <div class="bg-hover2 rounded-3 d-flex align-items-center p-2 m-2 border border-light-subtle">
+            <i class="fa-solid fa-file-csv fa-lg text-warning bg-warning-subtle p-3 me-2"></i>
+            <div class="info-activitie flex-grow-1">
+              <h5 class="fs-6 fw-bold">CSV Files</h5>
+              <p class="fs-7 gray-c m-0">488</p>
+            </div>
+              <span class="gray-c text-center text-sm-end fw-medium d-block mb-2">6.5GB</span>
+          </div>
+          <button type="button" class="btn btn-primary d-block mb-0 mt-3 m-auto"><i class="fa-solid fa-angles-up position-relative me-2"></i>Upload</button>
+        </div>
+    </div>
+  </div>
+  <!-- Fontasome -->
+  <script src="js/all.min.js"></script>
+  <!-- BootStrap 5 -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Main JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>
